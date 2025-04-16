@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "npm run netlify-build && echo '/*    /index.html   200' > out/_redirects"
   publish = "out"
 
 [build.environment]
